@@ -6,9 +6,7 @@ const data=new mongose.Schema({
         ref:"User",
     },
     Name:{
-
         type:String
-
     },
     PhoneNo:{
         type:Number,
@@ -17,7 +15,6 @@ const data=new mongose.Schema({
     password:{
         type:String,
         require:true
-
     },
     email:{
         type:String,

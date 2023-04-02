@@ -18,9 +18,6 @@ app.get("*", (req,res)=>{
 
 
 
-
-
-
 app.use("/temp",require("./temp"))
 app.use("/note",require("./Note"))
 app.listen(port,()=>{

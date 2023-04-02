@@ -5,7 +5,8 @@ const { fetuser } = require("./middleware/fetuser");
 router.get("/getnote",fetuser,async (req,res)=>{
     try {
         const notes=await userschema.find({user:req.id})
-        res.send(notes)        
+        res.send(notes)     
+        console.log(notes)   
     } catch (error) {
         res.send("Here an error occured")  
         console.log("error")      
