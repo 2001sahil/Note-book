@@ -4,9 +4,9 @@ var cors = require('cors')
 const path=require('path')
 const port=8000
 // import faa from '../my-app/build'
-app.get("/",(req,res)=>{
-    res.send("HII")
-})
+// app.get("/",(req,res)=>{
+//     res.send("HII")
+// })
 app.use(express.json())
 app.use(cors())
 // static files////////////////////
